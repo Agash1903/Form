@@ -1,0 +1,35 @@
+/* body{
+    background-color: aqua;
+} */
+
+div{
+    margin-left: 450px;
+    padding: 0px 30px;
+}
+
+button{
+    border-radius: 10px;
+
+}
+form{
+    background-color: aqua;
+}
+ 
+@media (min-width:350px) and (max-width:600px){
+    form{
+       
+        background-color: brown;
+        
+    }
+    .h1{
+       
+        font-size: small;
+        float: left;
+    }
+    .div2{
+       justify-content: left;
+    }
+    .l1{
+        text-align: left;
+    }
+}
